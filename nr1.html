@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nur Askoma Özel </title>
+  <style>
+    /* CSS ile stil tanımlamaları */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nur Askoma Özel</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#hakkimizda">Nur Hakkında</a></li>
+      <li><a href="#fotograflar">Fotoğraflar</a></li>
+      <li><a href="#iletisim">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>Sen varsın yeterrr...</p>
+  </section>
+
+  <section id="fotograflar">
+    <h2>Fotoğraflar</h2>
+    <img src="resimler/nr1.jpg" alt="Nur askomla" style="width: 300px; height: 500px;">
+    <p>himmm</p>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>iletisim wp den sağlanmaktadır.
+        +90 551 198 93 98 📲
+    </p>
+  </section>
+
+  <footer>
+    <p>nur askoma özel &copy; 2023</p>
+  </footer>
+
+  <script>
+    // JavaScript ile etkileşimler ekleme (isteğe bağlı)
+    // Örneğin, iletişim formunun gönderildiğinde bir bildirim gösterebilirsiniz.
+    const form = document.querySelector('#iletisim form');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Mesajınız başarıyla gönderildi!');
+      form.reset();
+    });
+  </script>
+</body>
+</html>
